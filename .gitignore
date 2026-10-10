@@ -1,0 +1,25 @@
+# Archivos de depuración y configuración de VS Code
+.vscode/
+*.cfg
+*.svd
+*.json
+
+# Caché y archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+
+# Archivos temporales de compilación de Arduino
+build/
+*.hex
+*.elf
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
